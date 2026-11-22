@@ -1,6 +1,8 @@
+import 'api_keys.dart';
+
 abstract class ApiConstants {
   static const String apiBaseUrl = "api.themoviedb.org";
-  static const String apiKey = "c4c826652f54893fe872b430fcab0d60";
+  static const String apiKey = tmdbApiKey;
 
   static const String apiMovieEndPoint = "/3/movie/";
   static const String apiPopularEndPoint = "/3/movie/popular";
