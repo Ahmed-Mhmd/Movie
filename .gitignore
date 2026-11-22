@@ -43,3 +43,6 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Local TMDB API key - never commit this file
+lib/core/utils/api_keys.dart
