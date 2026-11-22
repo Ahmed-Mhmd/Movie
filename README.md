@@ -20,11 +20,13 @@ A Flutter app for browsing movies, powered by the [TMDB API](https://www.themovi
 ## Getting started
 
 1. Install Flutter (Dart SDK ^3.11.0)
-2. Clone the repo and install dependencies:
+2. Get a free TMDB API key at https://www.themoviedb.org/settings/api
+3. Copy `lib/core/utils/api_keys.example.dart` to `lib/core/utils/api_keys.dart` and paste your key in it. That file is gitignored, so your key stays on your machine and never gets committed.
+4. Install dependencies:
    ```
    flutter pub get
    ```
-3. Run the app:
+5. Run the app:
    ```
    flutter run
    ```
